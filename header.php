@@ -12,7 +12,7 @@
 <html <?php language_attributes(); ?>>
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
-<title>AWESOME COMPANY THEME - test<?php
+<title>BMG THEME - test - <?php
 	/*
 	 * Print the <title> tag based on what is being viewed.
 	 */
@@ -37,8 +37,8 @@
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
 
 <!-- symfony assets -->
-<link rel="stylesheet" type="text/css" media="all" href="/compiled/all.css" />
-<script type="text/javascript" src="/compiled/all.js"></script>
+<link rel="stylesheet" type="text/css" media="all" href="/css-compiled/bmgins/main.css" />
+<script type="text/javascript" src="/js-compiled/bmgins/main.js"></script>
 <script src="/js/routing?callback=fos.Router.setData"></script>
 <!-- end symfony assets -->
 
