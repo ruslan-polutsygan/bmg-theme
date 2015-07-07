@@ -12,7 +12,7 @@
 <html <?php language_attributes(); ?>>
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
-<title><?php
+<title>AWESOME COMPANY THEME - test<?php
 	/*
 	 * Print the <title> tag based on what is being viewed.
 	 */
