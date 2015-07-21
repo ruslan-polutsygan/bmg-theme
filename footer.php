@@ -11,7 +11,7 @@
  */
 ?>
 	</div><!-- #main -->
-<?php echo file_get_contents('http://'.$_SERVER['HTTP_HOST'].'/_layout_footer'); ?>
+<?php  echo render_path('/_layout_footer'); ?>
 </div><!-- #wrapper -->
 
 <?php

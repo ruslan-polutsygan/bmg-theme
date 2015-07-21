@@ -38,6 +38,16 @@
  * @since Twenty Ten 1.0
  */
 
+/**
+ * @param string $path
+ */
+function render_path($path)
+{
+    $context = stream_context_create(['http' => ['header'=> 'Cookie: ' . $_SERVER['HTTP_COOKIE']."\r\n"]]);
+
+    return file_get_contents('http://' . $_SERVER['HTTP_HOST'] . '/' . ltrim($path, '/'), null, $context);
+}
+
 /*
  * Set the content width based on the theme's design and stylesheet.
  *

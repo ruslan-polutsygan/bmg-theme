@@ -63,5 +63,5 @@
 
 <body <?php body_class(); ?>>
 <div id="wrapper" class="hfeed">
-    <?php echo file_get_contents('http://'.$_SERVER['HTTP_HOST'].'/_layout_header'); ?>
+    <?php echo render_path('/_layout_header'); ?>
 	<div id="main">
